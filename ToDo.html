@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="ToDo.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALBJREFUSEvtlUEKgzAQRZ/nEARxUW/Ty7jxBvVCHqQbd2LBe1gKDaXRhMyEaTdmGTLzZv6Q+QXGpzDOTwpgexfhvw3df9X8c8AVuAGtUroJ6IDRxfsdrECpTO7CZqAJAZyumYzPbFWDi9B3g/87IFUyV6i4A3OAdNjiDswBRxLFfr+4A3OAuUQnYGc4SSaSs4seQCUV3nu/AHVoXb8MZwAuSsgd6GOGo8wbDkvx5CzoE18eLRkwAkAuAAAAAElFTkSuQmCC">
+</head>
+<body>
+    <div class="corpo">
+        <h1 class="titulo">Lista de Tarefas</h1>
+        <div class="inserir">
+            <input type="text" id="novaTarefa" value="" maxlength="25" placeholder="Criar nova tarefa...">
+            <button class="criarTarefa" title="Criar tarefa" onclick="adicionarTarefa()"><i class='bx bx-plus-medical'></i></button>
+        </div>
+        <div id='lista' class="lista">
+        </div>
+    </div>
+    <script src="ToDo.js"></script>
+</body>
+</html>

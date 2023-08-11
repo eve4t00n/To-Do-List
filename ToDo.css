@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo {
+    text-align: center;
+}
+.corpo {
+    padding: 20px;
+    width: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1.0rem 0 #4f4f4f;
+    border-radius: 1rem;
+
+}
+.elementoTarefa {
+    display: flex;
+    border: 1px solid #2b2b2b;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+.concluida{
+    border: 0.1rem solid #006400;
+    background-color: #98fb98;
+}
+.inserir {
+    padding: 2rem;
+}
+.criarTarefa {
+    width: 20px;
+}
+.divSeparada{
+    justify-content: space-between;
+    display: flex;
+}
+.divSeparada input{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px; 
+}
+.divSeparada button{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #ff0000;
+    color: #ffffff;
+}
+#novaTarefa{
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid #2b2b2b;
+    width: 80%;
+    height: 2rem;
+    font-size: 1rem;
+}
+.criarTarefa{
+    width: 2rem;
+    height: 2rem;
+}
+.riscado{
+    text-decoration: line-through;
+}
