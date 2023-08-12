@@ -3,7 +3,7 @@ Para o desenvolvimento do código foram utilizadas as tecnologias HTML, para est
 
 Os principais conceitos utilizados para criar as tarefas foram:
 
- -Manipulaçã do DOM
+ -Manipulação do DOM
  -Eventos
  -Funções
  -Arrays
